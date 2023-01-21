@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneManager : MonoBehaviour
+public class FadeManager : MonoBehaviour
 {
     public float fadeDuration = 1.0f;
     public bool useFadeTransition = true;
@@ -29,7 +29,7 @@ public class SceneManager : MonoBehaviour
         }
         else
         {
-            LoadScene(sceneName);
+            SceneManager.LoadScene(sceneName);
         }
     }
 
@@ -43,7 +43,7 @@ public class SceneManager : MonoBehaviour
             yield return null;
         }
 
-        LoadScene(sceneName);
+        SceneManager.LoadScene(sceneName);
 
         // Fade in
         time = 0;
