@@ -32,8 +32,24 @@ public class MainMenuManager : MonoBehaviour
         SceneManager.LoadScene(nextSceneIndex);
     }
 
+    public void OpenCredits()
+    {
+        //Go to credits
+    }
+
+    public void OpenAllSettings()
+    {
+        //Go to all settings
+    }
+
+    public void OpenVolumeSettings()
+    {
+        //Go to volume settings
+    }
+
     public void QuitGame()
     {
+        Debug.Log("Exiting");
         Application.Quit();
     }
 }
