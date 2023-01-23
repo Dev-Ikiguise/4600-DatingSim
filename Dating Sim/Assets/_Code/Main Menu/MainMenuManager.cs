@@ -14,10 +14,9 @@ public class MainMenuManager : MonoBehaviour
         fadeManager = GetComponent<FadeManager>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OpenSaveSelection()
     {
-        
+        //Go to saves
     }
 
     public void PlayIntroScene()
