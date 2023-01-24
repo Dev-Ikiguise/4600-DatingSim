@@ -35,12 +35,7 @@ public class MainMenuManager : MonoBehaviour
     {
         //Go to credits
     }
-
-    public void OpenAllSettings()
-    {
-        //Go to all settings
-    }
-
+    
     public void OpenVolumeSettings()
     {
         //Go to volume settings
