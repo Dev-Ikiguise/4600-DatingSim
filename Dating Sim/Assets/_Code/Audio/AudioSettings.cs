@@ -7,16 +7,29 @@ using UnityEngine.Audio;
 public class AudioSettings : MonoBehaviour
 {
     private static readonly string FirstPlay = "FirstPlay";
-    private static readonly string MasterPref = "MasterPref";
-    private static readonly string MusicPref = "MasterPref";
-    private static readonly string SoundEffectsPref = "SoundEffectsPref";
-    private static readonly string DialoguePref = "dialoguePref";
+    public static readonly string MasterPref = "MasterPref";
+    public static readonly string MusicPref = "MusicPref";
+    public static readonly string SoundEffectsPref = "SoundEffectsPref";
+    public static readonly string DialoguePref = "DialoguePref";
 
     [SerializeField] AudioMixer mixer;
+
+    public const string MIXER_MASTER = "MasterVolume";
+    public const string MIXER_MUSIC = "MusicVolume";
+    public const string MIXER_SFX = "SFXVolume";
+    public const string MIXER_DIALOGUE = "DialogueVolume";
 
     private int firstPlayInt;
     public Slider masterSlider, musicSlider, soundEffectsSlider, dialogueSlider;
     private float masterFloat, musicFloat, soundEffectsFloat, dialogueFloat;
+
+    private void Awake()
+    {
+        masterSlider.onValueChanged.AddListener(SetMasterVolume);
+        musicSlider.onValueChanged.AddListener(SetMusicVolume);
+        soundEffectsSlider.onValueChanged.AddListener(SetSFXVolume);
+        dialogueSlider.onValueChanged.AddListener(SetDialogueVolume);
+    }
 
     void Start()
     {
@@ -24,10 +37,10 @@ public class AudioSettings : MonoBehaviour
 
         if(firstPlayInt == 0)
         {
-            masterFloat = 100f;
-            musicFloat = 100f;
-            soundEffectsFloat = 100f;
-            dialogueFloat = 100f;
+            masterFloat = 1f;
+            musicFloat = 1f;
+            soundEffectsFloat = 1f;
+            dialogueFloat = 1f;
 
             masterSlider.value = masterFloat;
             musicSlider.value = musicFloat;
@@ -57,19 +70,36 @@ public class AudioSettings : MonoBehaviour
         }
     }
 
+    private void OnDisable()
+    {
+        SaveSoundSettings();
+    }
+
     public void SaveSoundSettings()
     {
         PlayerPrefs.SetFloat(MasterPref, masterSlider.value);
-        PlayerPrefs.SetFloat(MusicPref, masterSlider.value);
-        PlayerPrefs.SetFloat(SoundEffectsPref, masterSlider.value);
-        PlayerPrefs.SetFloat(DialoguePref, masterSlider.value);
+        PlayerPrefs.SetFloat(MusicPref, musicSlider.value);
+        PlayerPrefs.SetFloat(SoundEffectsPref, soundEffectsSlider.value);
+        PlayerPrefs.SetFloat(DialoguePref, dialogueSlider.value);
     }
 
-    private void OnApplicationFocus(bool inFocus)
+    public void SetMasterVolume(float value)
     {
-        if(!inFocus)
-        {
-            SaveSoundSettings();
-        }
+        mixer.SetFloat(MIXER_MASTER, Mathf.Log10(value) * 20);
+    }
+
+    public void SetMusicVolume(float value)
+    {
+        mixer.SetFloat(MIXER_MUSIC, Mathf.Log10(value) * 20);
+    }
+
+    public void SetSFXVolume(float value)
+    {
+        mixer.SetFloat(MIXER_SFX, Mathf.Log10(value) * 20);
+    }
+
+    public void SetDialogueVolume(float value)
+    {
+        mixer.SetFloat(MIXER_DIALOGUE, Mathf.Log10(value) * 20);
     }
 }
