@@ -11,10 +11,6 @@ public class SoundManager : MonoBehaviour
 
     [SerializeField] private AudioSource _musicSource, _effectsSource, _dialogueSource;
 
-    public const string MUSIC_KEY = "musicVolume";
-    public const string SFX_KEY = "sfxVolume";
-    public const string DIALOGUE_KEY = "dialogueVolume";
-
     private void Awake()
     {
         if (Instance == null)
