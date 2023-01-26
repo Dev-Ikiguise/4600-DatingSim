@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class AudioSettings : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class AudioSettings : MonoBehaviour
     private static readonly string MusicPref = "MasterPref";
     private static readonly string SoundEffectsPref = "SoundEffectsPref";
     private static readonly string DialoguePref = "dialoguePref";
+
+    [SerializeField] AudioMixer mixer;
 
     private int firstPlayInt;
     public Slider masterSlider, musicSlider, soundEffectsSlider, dialogueSlider;
