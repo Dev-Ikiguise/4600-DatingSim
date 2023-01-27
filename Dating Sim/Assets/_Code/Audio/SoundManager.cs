@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.Audio;
 using static UnityEngine.Rendering.DebugUI;
@@ -8,8 +9,6 @@ public class SoundManager : MonoBehaviour
 {
     public static SoundManager Instance;
     [SerializeField] AudioMixer mixer;
-
-    [SerializeField] private AudioSource _musicSource, _effectsSource, _dialogueSource;
 
     public Sound[] sounds;
 
@@ -27,7 +26,11 @@ public class SoundManager : MonoBehaviour
 
         foreach (Sound s in sounds)
         {
+            s.source = gameObject.AddComponent<AudioSource>();
             s.source.clip = s.clip;
+            s.source.outputAudioMixerGroup = s.mixerGroup;
+            s.source.loop = s.loop;
+
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
         }
@@ -35,19 +38,10 @@ public class SoundManager : MonoBehaviour
         LoadVolume();
     }
 
-    public void PlayMusic(AudioClip Clip)
+    public void Play(string name)
     {
-        _musicSource.PlayOneShot(Clip);
-    }
-
-    public void PlaySoundEffect(AudioClip clip)
-    {
-        _effectsSource.PlayOneShot(clip);
-    }
-
-    public void PlayDialogue(AudioClip clip)
-    {
-        _dialogueSource.PlayOneShot(clip);
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        s.source.Play();
     }
 
     //Volume Saved In AudioSettings.cs
