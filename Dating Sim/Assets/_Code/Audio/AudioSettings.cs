@@ -6,6 +6,8 @@ using UnityEngine.Audio;
 
 public class AudioSettings : MonoBehaviour
 {
+    public static AudioSettings Instance { get; set; }
+
     private static readonly string FirstPlay = "FirstPlay";
     public static readonly string MasterPref = "MasterPref";
     public static readonly string MusicPref = "MusicPref";
@@ -21,10 +23,12 @@ public class AudioSettings : MonoBehaviour
 
     private int firstPlayInt;
     public Slider masterSlider, musicSlider, soundEffectsSlider, dialogueSlider;
-    private float masterFloat, musicFloat, soundEffectsFloat, dialogueFloat;
+    public float masterFloat, musicFloat, soundEffectsFloat, dialogueFloat;
 
     private void Awake()
     {
+        Instance = this;
+
         masterSlider.onValueChanged.AddListener(SetMasterVolume);
         musicSlider.onValueChanged.AddListener(SetMusicVolume);
         soundEffectsSlider.onValueChanged.AddListener(SetSFXVolume);

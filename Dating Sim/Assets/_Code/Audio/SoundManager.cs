@@ -11,6 +11,8 @@ public class SoundManager : MonoBehaviour
 
     [SerializeField] private AudioSource _musicSource, _effectsSource, _dialogueSource;
 
+    public Sound[] sounds;
+
     private void Awake()
     {
         if (Instance == null)
@@ -23,12 +25,29 @@ public class SoundManager : MonoBehaviour
             Destroy(gameObject);
         }
 
+        foreach (Sound s in sounds)
+        {
+            s.source.clip = s.clip;
+            s.source.volume = s.volume;
+            s.source.pitch = s.pitch;
+        }
+
         LoadVolume();
     }
 
-    public void PlaySound(AudioClip clip)
+    public void PlayMusic(AudioClip Clip)
+    {
+        _musicSource.PlayOneShot(Clip);
+    }
+
+    public void PlaySoundEffect(AudioClip clip)
     {
         _effectsSource.PlayOneShot(clip);
+    }
+
+    public void PlayDialogue(AudioClip clip)
+    {
+        _dialogueSource.PlayOneShot(clip);
     }
 
     //Volume Saved In AudioSettings.cs
