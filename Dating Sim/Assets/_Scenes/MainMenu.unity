@@ -6543,7 +6543,23 @@ PrefabInstance:
       value: Menu Music
       objectReference: {fileID: 0}
     - target: {fileID: 1846198028012382498, guid: 6e438954caa80e146a10fa83a03fa781, type: 3}
+      propertyPath: sounds.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f6c8c3249de16849a0ef36fde64ccd9, type: 3}
+    - target: {fileID: 1846198028012382498, guid: 6e438954caa80e146a10fa83a03fa781, type: 3}
+      propertyPath: sounds.Array.data[1].loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846198028012382498, guid: 6e438954caa80e146a10fa83a03fa781, type: 3}
+      propertyPath: sounds.Array.data[1].name
+      value: Sound Effect
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846198028012382498, guid: 6e438954caa80e146a10fa83a03fa781, type: 3}
       propertyPath: sounds.Array.data[0].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846198028012382498, guid: 6e438954caa80e146a10fa83a03fa781, type: 3}
+      propertyPath: sounds.Array.data[1].pitch
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1846198028012382498, guid: 6e438954caa80e146a10fa83a03fa781, type: 3}
@@ -6551,9 +6567,17 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1846198028012382498, guid: 6e438954caa80e146a10fa83a03fa781, type: 3}
+      propertyPath: sounds.Array.data[1].volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846198028012382498, guid: 6e438954caa80e146a10fa83a03fa781, type: 3}
       propertyPath: sounds.Array.data[0].mixerGroup
       value: 
       objectReference: {fileID: 1021969567368514663, guid: 8b6f5b94cc6fe3d45bbe03ee03540ad4, type: 2}
+    - target: {fileID: 1846198028012382498, guid: 6e438954caa80e146a10fa83a03fa781, type: 3}
+      propertyPath: sounds.Array.data[1].mixerGroup
+      value: 
+      objectReference: {fileID: -4278962843967480111, guid: 8b6f5b94cc6fe3d45bbe03ee03540ad4, type: 2}
     - target: {fileID: 1846198028012382500, guid: 6e438954caa80e146a10fa83a03fa781, type: 3}
       propertyPath: m_Name
       value: Audio Manager
