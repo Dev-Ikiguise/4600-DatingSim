@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -8,16 +9,23 @@ public class PopUpVolume : MonoBehaviour
 {
     public Slider popUpMaxSlider;
     public GameObject popUpVolumePanel;
+    public SettingsWindow settingsWindow;
+
+    [SerializeField] AudioMixer mixer;
+    [SerializeField] AudioSettings audioSettings;
+    [SerializeField] PopUpSlider popUpSlider;
+    const string MIXER_MASTER = "MasterVolume";
 
     public float timeout = 5.0f;
 
-    void OnEnable()
-    {
-        Invoke("DeactivatePopUp", timeout);
-    }
-
     void Update()
     {
+        if (popUpSlider.popUpEnabled == true)
+        {
+            Invoke("DeactivatePopUp", timeout);
+            popUpSlider.popUpEnabled = false;
+        }
+
         if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject() && popUpVolumePanel.activeInHierarchy)
         {
             popUpVolumePanel.SetActive(false);
@@ -32,11 +40,19 @@ public class PopUpVolume : MonoBehaviour
 
     public void ToggleVolumePanel()
     {
-        popUpVolumePanel.SetActive(!popUpVolumePanel.activeInHierarchy);
+        if (settingsWindow.isActive == false)
+        {
+            popUpVolumePanel.SetActive(!popUpVolumePanel.activeInHierarchy);
+        }
     }
 
-    private void DeactivatePopUp()
+    public void DeactivatePopUp()
     {
         popUpVolumePanel.SetActive(false);
+    }
+
+    public void SetMasterVolume(float value)
+    {
+        mixer.SetFloat(MIXER_MASTER, Mathf.Log10(value) * 20);
     }
 }

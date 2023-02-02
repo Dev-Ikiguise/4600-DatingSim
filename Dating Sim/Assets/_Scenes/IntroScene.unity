@@ -617,7 +617,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Intro Conversation
+  conversation: Introduction Conversation
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -641,7 +641,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: 10ab679749ded1c4a979d60ac6d5b985, type: 2}
+  selectedDatabase: {fileID: 11400000, guid: 081d77e3fbd96784bb3cbe3b009b94ce, type: 2}
 --- !u!4 &155936273
 Transform:
   m_ObjectHideFlags: 0
@@ -3735,7 +3735,7 @@ PrefabInstance:
     - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: initialDatabase
       value: 
-      objectReference: {fileID: 11400000, guid: 10ab679749ded1c4a979d60ac6d5b985, type: 2}
+      objectReference: {fileID: 11400000, guid: 081d77e3fbd96784bb3cbe3b009b94ce, type: 2}
     - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: displaySettings.dialogueUI
       value: 
