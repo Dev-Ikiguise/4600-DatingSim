@@ -485,7 +485,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: " There comes a time, in every person\u2019s life, when a person must
+        value: "There comes a time, in every person\u2019s life, when a person must
           decide their fate. Where their life is changed forever. Where they can
           begin the stepping stone of their life."
         type: 0
