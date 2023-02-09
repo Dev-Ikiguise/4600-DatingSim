@@ -731,7 +731,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 'The Counselor laughed at hisjoke. '
+        value: 'The Counselor laughed at his joke. '
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
