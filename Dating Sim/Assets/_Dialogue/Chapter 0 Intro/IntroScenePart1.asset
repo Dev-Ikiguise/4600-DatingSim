@@ -126,7 +126,7 @@ MonoBehaviour:
   - id: 10004
     fields:
     - title: Name
-      value: You(Inner Thoughs)
+      value: You(Thoughts)
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -135,6 +135,28 @@ MonoBehaviour:
       typeString: CustomFieldType_Files
     - title: Description
       value: The inner thoughts of the player.
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: IsPlayer
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    portrait: {fileID: 0}
+    spritePortrait: {fileID: 0}
+    alternatePortraits: []
+    spritePortraits: []
+  - id: 10005
+    fields:
+    - title: Name
+      value: You
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: 
       type: 0
       typeString: CustomFieldType_Text
     - title: IsPlayer
@@ -507,7 +529,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: " There comes a time, in every person\u2019s life, when a person must
+        value: "There comes a time, in every person\u2019s life, when a person must
           decide their fate. Where their life is changed forever. Where they can
           begin the stepping stone of their life."
         type: 0
@@ -704,8 +726,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 268
-        y: 291
+        x: 269.49252
+        y: 289.50745
         width: 160
         height: 30
     - id: 5
@@ -829,7 +851,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 1
+        value: 10005
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -871,7 +893,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 453
-        y: 396
+        y: 394.50745
         width: 160
         height: 30
     - id: 8
@@ -1333,11 +1355,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 1
+        value: 10005
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 10005
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1610,7 +1632,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 1
+        value: 10005
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -1650,7 +1672,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 630.9787
+        x: 632.47125
         y: 404.87234
         width: 160
         height: 30
@@ -1832,7 +1854,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 1
+        value: 10005
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -1999,7 +2021,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 1
+        value: 10005
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -2039,8 +2061,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 637.0638
-        y: 461.43628
+        x: 638.55634
+        y: 459.9438
         width: 160
         height: 30
     - id: 29
