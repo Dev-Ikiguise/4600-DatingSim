@@ -7,9 +7,10 @@ public class ButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 {
     public GameObject buttonBorder;
     public GameObject buttonText;
-    public float timerDuration = 5f;
+    public float timerDuration = 7f;
     private float timerStartTime;
     private bool buttonActive;
+    private bool shownAtStart = false;
 
     void Start()
     {
@@ -18,16 +19,10 @@ public class ButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     private void Update()
     {
-        if (Time.time - timerStartTime >= timerDuration)
+        if (Time.time - timerStartTime >= timerDuration && !shownAtStart)
         {
-            SetTextActive();
-            StartCoroutine(WaitForTime());
-
-            if (buttonActive == true)
-            {
-                buttonText.SetActive(false);
-                buttonActive = false;
-            }
+            buttonText.SetActive(false);
+            shownAtStart = true;
 
             timerStartTime = Time.time;
         }
