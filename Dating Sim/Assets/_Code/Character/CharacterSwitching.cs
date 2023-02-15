@@ -8,7 +8,17 @@ public class CharacterSwitching : MonoBehaviour
 
     void Awake()
     {
-        for each
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+        foreach
     }
 
     void Start()
