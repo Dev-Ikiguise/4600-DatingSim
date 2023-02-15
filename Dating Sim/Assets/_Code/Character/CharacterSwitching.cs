@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterSwitching : MonoBehaviour
 {
-    public Actors[] actorsList;
+   /* public Actors[] actorsList;
 
     void Awake()
     {
@@ -17,8 +17,6 @@ public class CharacterSwitching : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        foreach
     }
 
     void Start()
@@ -29,5 +27,5 @@ public class CharacterSwitching : MonoBehaviour
     void Update()
     {
         
-    }
+    }*/
 }
