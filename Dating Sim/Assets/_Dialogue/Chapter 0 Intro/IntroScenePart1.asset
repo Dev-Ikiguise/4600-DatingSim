@@ -217,216 +217,6 @@ MonoBehaviour:
       type: 0
       typeString: 
   conversations:
-  - id: 10001
-    fields:
-    - title: Title
-      value: Introduction Conversation
-      type: 0
-      typeString: 
-    - title: Description
-      value: 
-      type: 0
-      typeString: 
-    - title: Actor
-      value: 1
-      type: 5
-      typeString: CustomFieldType_Actor
-    - title: Conversant
-      value: 10001
-      type: 5
-      typeString: CustomFieldType_Actor
-    overrideSettings:
-      useOverrides: 0
-      overrideSubtitleSettings: 0
-      showNPCSubtitlesDuringLine: 1
-      showNPCSubtitlesWithResponses: 1
-      showPCSubtitlesDuringLine: 0
-      skipPCSubtitleAfterResponseMenu: 0
-      subtitleCharsPerSecond: 30
-      minSubtitleSeconds: 2
-      continueButton: 0
-      overrideSequenceSettings: 0
-      defaultSequence: 
-      defaultPlayerSequence: 
-      defaultResponseMenuSequence: 
-      overrideInputSettings: 0
-      alwaysForceResponseMenu: 1
-      includeInvalidEntries: 0
-      responseTimeout: 0
-      emTagForOldResponses: 0
-      emTagForInvalidResponses: 0
-      cancelSubtitle:
-        key: 27
-        buttonName: 
-      cancelConversation:
-        key: 27
-        buttonName: 
-    nodeColor: 
-    dialogueEntries:
-    - id: 0
-      fields:
-      - title: Title
-        value: START
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: -1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: None()
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 10001
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 10001
-        originDialogueID: 0
-        destinationConversationID: 10001
-        destinationDialogueID: 1
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 234
-        y: 49
-        width: 160
-        height: 30
-    - id: 1
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 10001
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: You're a Bitch
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 10001
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 10001
-        originDialogueID: 1
-        destinationConversationID: 10001
-        destinationDialogueID: 2
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 247
-        y: 132
-        width: 160
-        height: 30
-    - id: 2
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 10002
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: 'ASDJALKS
-
-'
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 10001
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 246
-        y: 202
-        width: 160
-        height: 30
-    entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
   - id: 10002
     fields:
     - title: Title
@@ -2304,8 +2094,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 89.182, y: 0}
-    canvasZoom: 0.6700003
+    canvasScrollPosition: {x: 149.75224, y: 54.169113}
+    canvasZoom: 0.85000014
   - id: 10003
     fields:
     - title: Title
@@ -2448,7 +2238,7 @@ MonoBehaviour:
       - originConversationID: 10003
         originDialogueID: 1
         destinationConversationID: 10003
-        destinationDialogueID: 2
+        destinationDialogueID: 78
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2486,10 +2276,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: (As I gasped and wheezed in front of the Academic Advising Office,
-          my legs protested my impromptu workout with searing aches. My lungs echoed
-          with a deep burn, almost daring they'd cease functioning altogether if
-          I took but one more step. One thought continued to circulate through my
-          mind as I attempted to recover.)
+          my legs protested my impromptu workout with searing aches.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -2517,8 +2304,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 29.18557
-        y: 122.47423
+        x: 24.650963
+        y: 187.78372
         width: 160
         height: 30
     - id: 3
@@ -2577,8 +2364,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 29.18557
-        y: 173.47423
+        x: 29.185577
+        y: 254.07118
         width: 160
         height: 30
     - id: 4
@@ -2633,8 +2420,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 28.18557
-        y: 228.47423
+        x: 33.68006
+        y: 291.1772
         width: 160
         height: 30
     - id: 5
@@ -2660,10 +2447,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '(The office was, for lack of a better word, nondescript. It simply
-          was. If it were to commit a crime, it would not be picked out of a lineup.
-          Yet other then lacking in description there was one other thing missing
-          from the office: people.)'
+        value: (The office was, for lack of a better word, nondescript. It simply
+          was. If it were to commit a crime, it would not be picked out of a lineup.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -2681,7 +2466,7 @@ MonoBehaviour:
       - originConversationID: 10003
         originDialogueID: 5
         destinationConversationID: 10003
-        destinationDialogueID: 6
+        destinationDialogueID: 79
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2692,7 +2477,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 28.18557
-        y: 278.47406
+        y: 343.752
         width: 160
         height: 30
     - id: 6
@@ -2747,8 +2532,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 28.18557
-        y: 328.47406
+        x: 22.691063
+        y: 450.18964
         width: 160
         height: 30
     - id: 7
@@ -2802,8 +2587,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 28.18557
-        y: 378.47406
+        x: 80.93282
+        y: 497.99185
         width: 160
         height: 30
     - id: 8
@@ -2857,8 +2642,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 28.18557
-        y: 428.47406
+        x: 235.41861
+        y: 532.62366
         width: 160
         height: 30
     - id: 9
@@ -2912,8 +2697,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 203.882
-        y: 428.47418
+        x: 212.74278
+        y: 463.91718
         width: 160
         height: 30
     - id: 10
@@ -2970,8 +2755,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 202.85106
-        y: 376.41232
+        x: 201.58522
+        y: 375.14648
         width: 160
         height: 30
     - id: 11
@@ -3972,6 +3757,12 @@ MonoBehaviour:
         originDialogueID: 28
         destinationConversationID: 10003
         destinationDialogueID: 29
+        isConnector: 0
+        priority: 2
+      - originConversationID: 10003
+        originDialogueID: 28
+        destinationConversationID: 10003
+        destinationDialogueID: 27
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -6648,9 +6439,122 @@ MonoBehaviour:
         y: 223.83507
         width: 160
         height: 30
+    - id: 78
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: (My lungs echoed with a deep burn, almost daring they'd cease functioning
+          altogether if I took but one more step. One thought continued to circulate
+          through my mind as I attempted to recover.)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10003
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10003
+        originDialogueID: 78
+        destinationConversationID: 10003
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 21.895515
+        y: 129.255
+        width: 160
+        height: 30
+    - id: 79
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '(Yet other then lacking in description there was one other thing
+          missing from the office: people.)'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10003
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10003
+        originDialogueID: 79
+        destinationConversationID: 10003
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 24.888885
+        y: 404.741
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 19.587646, y: 0}
-    canvasZoom: 0.97
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.7900002
   - id: 10004
     fields:
     - title: Title

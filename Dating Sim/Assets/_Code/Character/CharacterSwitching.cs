@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CharacterSwitching : MonoBehaviour
 {
-   /* public Actors[] actorsList;
+    public static CharacterSwitching Instance;
+    public CharacterInfo[] actorsList;
 
     void Awake()
     {
@@ -27,5 +28,5 @@ public class CharacterSwitching : MonoBehaviour
     void Update()
     {
         
-    }*/
+    }
 }
