@@ -517,6 +517,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 0311ca21-a76b-4ba1-8ebe-195218153885
+        type: 0
+        typeString: 
       conversationID: 10002
       isRoot: 0
       isGroup: 0
@@ -2017,6 +2021,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: f1f73d1a-b5a3-4892-aaa8-c53989a3839d
+        type: 0
+        typeString: 
       conversationID: 10002
       isRoot: 0
       isGroup: 0
@@ -2029,7 +2037,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: 
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 437.06384
@@ -2094,12 +2114,12 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 149.75224, y: 54.169113}
-    canvasZoom: 0.85000014
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.64000034
   - id: 10003
     fields:
     - title: Title
-      value: 'Into Dialogue 2: Academic Advising Office'
+      value: 'Intro Dialogue 2: Academic Advising Office'
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
@@ -2212,7 +2232,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 10004
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2587,8 +2607,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 80.93282
-        y: 497.99185
+        x: 56.882195
+        y: 508.11844
         width: 160
         height: 30
     - id: 8
@@ -2621,6 +2641,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 414a04c5-3773-4a64-bfc1-cc141f06ba83
+        type: 0
+        typeString: 
       conversationID: 10003
       isRoot: 0
       isGroup: 0
@@ -2639,7 +2663,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: 
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 235.41861
@@ -2726,8 +2762,7 @@ MonoBehaviour:
       - title: Dialogue Text
         value: (Behind me was a woman in her late 30s. Where one would expect someone
           so stealthy to be fully clad in shinobi shozuku, this woman, whose nametag
-          indicated went by "Claire", was dressed in a business suit. Her face was
-          dressed with a look that could only be referred to as "unimpressed".)
+          indicated went by "Claire", was dressed in a business suit.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -2745,7 +2780,7 @@ MonoBehaviour:
       - originConversationID: 10003
         originDialogueID: 10
         destinationConversationID: 10003
-        destinationDialogueID: 11
+        destinationDialogueID: 80
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2755,8 +2790,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 201.58522
-        y: 375.14648
+        x: 207.91438
+        y: 421.98187
         width: 160
         height: 30
     - id: 11
@@ -3035,8 +3070,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 203.88194
-        y: 121.25772
+        x: 202.6161
+        y: 122.523544
         width: 160
         height: 30
     - id: 16
@@ -3174,10 +3209,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: (I just stood there. I didn't know how to react. Claire meanwhile
-          was perfectly content, a huge smile still stamped to her face. But when
-          I failed to respond, she started to look a bit nervous. She shifted her
-          eyes from side to side before finally leaning towards me, cupping a hand
-          to the side of her mouth.)
+          was perfectly content, a huge smile still stamped to her face.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -3195,7 +3227,7 @@ MonoBehaviour:
       - originConversationID: 10003
         originDialogueID: 18
         destinationConversationID: 10003
-        destinationDialogueID: 19
+        destinationDialogueID: 81
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3260,8 +3292,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 385.32532
-        y: 70.74229
+        x: 373.93292
+        y: 155.5524
         width: 160
         height: 30
     - id: 20
@@ -3316,8 +3348,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 385.32532
-        y: 121.77322
+        x: 380.26202
+        y: 202.78584
         width: 160
         height: 30
     - id: 21
@@ -3371,8 +3403,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 384.29437
-        y: 175.89694
+        x: 377.96527
+        y: 251.84628
         width: 160
         height: 30
     - id: 22
@@ -3427,8 +3459,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 386.35623
-        y: 224.866
+        x: 378.7613
+        y: 303.347
         width: 160
         height: 30
     - id: 23
@@ -3483,8 +3515,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 386.35623
-        y: 274.866
+        x: 393.9511
+        y: 345.75204
         width: 160
         height: 30
     - id: 24
@@ -3539,8 +3571,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 385.32532
-        y: 324.866
+        x: 397.98355
+        y: 403.347
         width: 160
         height: 30
     - id: 25
@@ -3596,8 +3628,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 386.35623
-        y: 376.92786
+        x: 380.0271
+        y: 460.47217
         width: 160
         height: 30
     - id: 26
@@ -3615,7 +3647,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 10004
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -3624,11 +3656,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: (The desktop was peppered with random papers, paperclips, pens, and
-          a computer that could only be described as "Clinton Era". The yellowed
-          plastic of the keyboard was smudged with various fingerprints from previous
-          receptionists. The remaining exposed surfaces of the desk were marked with
-          various rings from previous drinks. The cherry on top was a thick layer
-          of dust.)
+          a computer that could only be described as "Clinton Era".)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -3646,7 +3674,7 @@ MonoBehaviour:
       - originConversationID: 10003
         originDialogueID: 26
         destinationConversationID: 10003
-        destinationDialogueID: 27
+        destinationDialogueID: 82
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3656,8 +3684,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 383.26343
-        y: 428.98972
+        x: 412.37735
+        y: 527.72394
         width: 160
         height: 30
     - id: 27
@@ -3690,6 +3718,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: 
       conversationID: 10003
       isRoot: 0
       isGroup: 0
@@ -3711,8 +3743,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 563.67584
-        y: 426.41238
+        x: 561.14417
+        y: 442.86807
         width: 160
         height: 30
     - id: 28
@@ -3757,12 +3789,6 @@ MonoBehaviour:
         originDialogueID: 28
         destinationConversationID: 10003
         destinationDialogueID: 29
-        isConnector: 0
-        priority: 2
-      - originConversationID: 10003
-        originDialogueID: 28
-        destinationConversationID: 10003
-        destinationDialogueID: 27
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -4189,8 +4215,7 @@ MonoBehaviour:
       - title: Dialogue Text
         value: (Claire began to cough again, this time having a full on coughing
           fit. As she coughed she leaned forward a bit and lightly slapped the palm
-          of her hand into her chest. After some wheezing and gasping she composed
-          herself and took a deep breath.)
+          of her hand into her chest.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -4208,7 +4233,7 @@ MonoBehaviour:
       - originConversationID: 10003
         originDialogueID: 36
         destinationConversationID: 10003
-        destinationDialogueID: 37
+        destinationDialogueID: 84
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -4219,7 +4244,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 737.9025
-        y: 18.68039
+        y: 16.048813
         width: 160
         height: 30
     - id: 37
@@ -4273,8 +4298,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 737.9025
-        y: 69.711334
+        x: 735.27094
+        y: 127.606064
         width: 160
         height: 30
     - id: 38
@@ -4300,11 +4325,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '(Claire heaved violently, another coughing fit erupting from her
-          throat. She bent over, bracing herself with one hand on her knee. With
-          her other hand, she pounded the desktop over and over, as if using the
-          force of the effort to expel all the dust within her. She sounded as if
-          she was going to cough up a lung.) '
+        value: (Claire heaved violently, another coughing fit erupting from her throat.
+          She bent over, bracing herself with one hand on her knee.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -4322,7 +4344,7 @@ MonoBehaviour:
       - originConversationID: 10003
         originDialogueID: 38
         destinationConversationID: 10003
-        destinationDialogueID: 39
+        destinationDialogueID: 85
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -4332,8 +4354,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 737.9025
-        y: 118.68039
+        x: 735.27094
+        y: 176.57512
         width: 160
         height: 30
     - id: 39
@@ -4387,8 +4409,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 737.9025
-        y: 175.89685
+        x: 735.27094
+        y: 275.89685
         width: 160
         height: 30
     - id: 40
@@ -4442,8 +4464,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 737.9025
-        y: 223.83502
+        x: 735.27094
+        y: 323.83487
         width: 160
         height: 30
     - id: 41
@@ -4497,8 +4519,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 739.96436
-        y: 272.8041
+        x: 737.33276
+        y: 372.8038
         width: 160
         height: 30
     - id: 42
@@ -4553,8 +4575,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 737.9025
-        y: 322.8041
+        x: 735.27094
+        y: 422.8038
         width: 160
         height: 30
     - id: 43
@@ -4608,8 +4630,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 737.9025
-        y: 375.89688
+        x: 735.27094
+        y: 475.89658
         width: 160
         height: 30
     - id: 44
@@ -4663,8 +4685,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 738.9334
-        y: 426.9278
+        x: 736.3018
+        y: 526.9276
         width: 160
         height: 30
     - id: 45
@@ -4718,8 +4740,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 918.31494
-        y: 427.44324
+        x: 914.36755
+        y: 498.22363
         width: 160
         height: 30
     - id: 46
@@ -4746,10 +4768,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: (As if in response, the coughing finally stopped. After a moment,
-          Claire stood up straight removing her hands from her knees. A hand-shaped
-          dust print remained on her skirt, matching the dust free hand print on
-          the desk. When she finally looked back to me, her eyes were red and tears
-          were streaming down her cheeks.)
+          Claire stood up straight removing her hands from her knees.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -4767,7 +4786,7 @@ MonoBehaviour:
       - originConversationID: 10003
         originDialogueID: 46
         destinationConversationID: 10003
-        destinationDialogueID: 47
+        destinationDialogueID: 86
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -4777,8 +4796,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 915.22217
-        y: 375.38135
+        x: 918.1713
+        y: 432.36865
         width: 160
         height: 30
     - id: 47
@@ -4833,8 +4852,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 915.22217
-        y: 322.28857
+        x: 912.5906
+        y: 323.6044
         width: 160
         height: 30
     - id: 48
@@ -5412,8 +5431,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: (Claire strode to the other side of the room and grabbed some papers
-          from the printer tray. She tapped them gingerly against a nearby tabletop
-          a few times, before stapling them and returning to you. )
+          from the printer tray.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -5431,7 +5449,7 @@ MonoBehaviour:
       - originConversationID: 10003
         originDialogueID: 58
         destinationConversationID: 10003
-        destinationDialogueID: 59
+        destinationDialogueID: 87
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -5441,8 +5459,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1088.418
-        y: 218.68039
+        x: 1093.5905
+        y: 235.92175
         width: 160
         height: 30
     - id: 59
@@ -5469,9 +5487,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: Alright! So this packet will explain how to work the phone and input
-          schedules into the computer. It also lists the extensions for each advisor,
-          and the extensionsfor the other university departments should you need
-          them.
+          schedules into the computer.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -5489,7 +5505,7 @@ MonoBehaviour:
       - originConversationID: 10003
         originDialogueID: 59
         destinationConversationID: 10003
-        destinationDialogueID: 60
+        destinationDialogueID: 88
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -5499,8 +5515,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1088.418
-        y: 269.71133
+        x: 1091.0494
+        y: 335.5008
         width: 160
         height: 30
     - id: 60
@@ -5555,8 +5571,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1090.4797
-        y: 321.7732
+        x: 1093.1113
+        y: 423.08896
         width: 160
         height: 30
     - id: 61
@@ -5612,7 +5628,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1090.4797
-        y: 375.89688
+        y: 478.5284
         width: 160
         height: 30
     - id: 62
@@ -5667,7 +5683,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1091.5107
-        y: 426.92783
+        y: 529.5594
         width: 160
         height: 30
     - id: 63
@@ -5721,8 +5737,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1272.954
-        y: 426.41238
+        x: 1276.9015
+        y: 493.51764
         width: 160
         height: 30
     - id: 64
@@ -5776,8 +5792,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1271.923
-        y: 375.38138
+        x: 1275.8705
+        y: 442.48663
         width: 160
         height: 30
     - id: 65
@@ -5831,8 +5847,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1272.954
-        y: 322.2886
+        x: 1276.9015
+        y: 389.39386
         width: 160
         height: 30
     - id: 66
@@ -5859,8 +5875,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: Hmm, the day is almost over, but if you'd like, you can stay and get
-          your bearings and get some practice with anyone who walks in. Or you could
-          head home and get started tomorrow.
+          your bearings and get some practice with anyone who walks in.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -5878,7 +5893,7 @@ MonoBehaviour:
       - originConversationID: 10003
         originDialogueID: 66
         destinationConversationID: 10003
-        destinationDialogueID: 67
+        destinationDialogueID: 89
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -5888,8 +5903,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1275.0159
-        y: 269.19583
+        x: 1273.3759
+        y: 330.65942
         width: 160
         height: 30
     - id: 67
@@ -6552,9 +6567,571 @@ MonoBehaviour:
         y: 404.741
         width: 160
         height: 30
+    - id: 80
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: (Her face was dressed with a look that could only be referred to as
+          "unimpressed".)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10003
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10003
+        originDialogueID: 80
+        destinationConversationID: 10003
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 202.85104
+        y: 373.2477
+        width: 160
+        height: 30
+    - id: 81
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: (But when I failed to respond, she started to look a bit nervous.
+          She shifted her eyes from side to side before finally leaning towards me,
+          cupping a hand to the side of her mouth.)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10003
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10003
+        originDialogueID: 81
+        destinationConversationID: 10003
+        destinationDialogueID: 19
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 379.23105
+        y: 90.43429
+        width: 160
+        height: 30
+    - id: 82
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: (The yellowed plastic of the keyboard was smudged with various fingerprints
+          from previous receptionists.)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10003
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10003
+        originDialogueID: 82
+        destinationConversationID: 10003
+        destinationDialogueID: 83
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 556.681
+        y: 587.8505
+        width: 160
+        height: 30
+    - id: 83
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: ' The remaining exposed surfaces of the desk were marked with various
+          rings from previous drinks. The cherry on top was a thick layer of dust.)'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10003
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10003
+        originDialogueID: 83
+        destinationConversationID: 10003
+        destinationDialogueID: 27
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 552.88354
+        y: 525.1922
+        width: 160
+        height: 30
+    - id: 84
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: (After some wheezing and gasping she composed herself and took a deep
+          breath.)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10003
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10003
+        originDialogueID: 84
+        destinationConversationID: 10003
+        destinationDialogueID: 37
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 737.9025
+        y: 66.04881
+        width: 160
+        height: 30
+    - id: 85
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '(With her other hand, she pounded the desktop over and over, as if
+          using the force of the effort to expel all the dust within her. She sounded
+          as if she was going to cough up a lung.) '
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10003
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10003
+        originDialogueID: 85
+        destinationConversationID: 10003
+        destinationDialogueID: 39
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 737.9025
+        y: 222.62776
+        width: 160
+        height: 30
+    - id: 86
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: A hand-shaped dust print remained on her skirt, matching the dust
+          free hand print on the desk. When she finally looked back to me, her eyes
+          were red and tears were streaming down her cheeks.)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10003
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10003
+        originDialogueID: 86
+        destinationConversationID: 10003
+        destinationDialogueID: 47
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 914.723
+        y: 382.36877
+        width: 160
+        height: 30
+    - id: 87
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: (She tapped them gingerly against a nearby tabletop a few times, before
+          stapling them and returning to you.)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10003
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10003
+        originDialogueID: 87
+        destinationConversationID: 10003
+        destinationDialogueID: 59
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1092.2745
+        y: 292.5007
+        width: 160
+        height: 30
+    - id: 88
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 10002
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: It also lists the extensions for each advisor, and the extensions
+          for the other university departments should you need them.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10003
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10003
+        originDialogueID: 88
+        destinationConversationID: 10003
+        destinationDialogueID: 60
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1091.0496
+        y: 381.5534
+        width: 160
+        height: 30
+    - id: 89
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 10002
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: Or you could head home and get started tomorrow.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10003
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10003
+        originDialogueID: 89
+        destinationConversationID: 10003
+        destinationDialogueID: 67
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1273.3759
+        y: 275.18
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.7900002
+    canvasScrollPosition: {x: 277.64258, y: 0}
+    canvasZoom: 0.52000046
   - id: 10004
     fields:
     - title: Title
@@ -8707,7 +9284,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasZoom: 0.7600002
   syncInfo:
     syncActors: 0
     syncItems: 0
