@@ -188,13 +188,13 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: 'Into Dialogue 2: Academic Advising Office'
+  conversation: 'Intro Dialogue 2: Academic Advising Office'
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 1888368716}
   startConversationEntryID: -1
   startConversationEntryTitle: 
   exclusive: 0
-  replace: 0
+  replace: 1
   skipIfNoValidEntries: 0
   preventRestartOnSameFrameEnded: 0
   stopConversationOnTriggerExit: 0
