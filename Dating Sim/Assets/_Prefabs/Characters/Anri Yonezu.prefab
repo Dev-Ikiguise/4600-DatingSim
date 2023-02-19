@@ -75,12 +75,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 532d2bbc061eec64bb6f67915afe3acd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb341beded45b7f4880ee1b2901a696c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 7.86, y: 15}
+  m_Size: {x: 8.64, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -106,6 +106,7 @@ MonoBehaviour:
   characterWeight: +/- 115lbs
   collegeMajor: Computer Science
   relationshipLevel: 0
+  isTalking: 0
 --- !u!114 &6877836072939376018
 MonoBehaviour:
   m_ObjectHideFlags: 0
