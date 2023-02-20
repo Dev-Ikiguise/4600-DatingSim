@@ -7311,10 +7311,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: (I stepped into the shared apartment closed the door behind me. It
-          was dark inside. The only light came from beneath one of the doors adorning
-          the hallway. Despite my lack of sight, I was unperturbed and made a beeline
-          for the fridge. After my success today, I deserved a treat.)
+        value: (I stepped into the shared apartment and closed the door behind me.
+          It was dark inside. The only light came from beneath one of the doors adorning
+          the hallway.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -7332,7 +7331,7 @@ MonoBehaviour:
       - originConversationID: 10004
         originDialogueID: 2
         destinationConversationID: 10004
-        destinationDialogueID: 3
+        destinationDialogueID: 38
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -7566,7 +7565,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 28.684212
+        x: 27.368431
         y: 385.78946
         width: 160
         height: 30
@@ -9033,9 +9032,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: (After throwing the container away, I reached into my pocket and fished
-          out the business card from earlier. I set it down on the table, and then
-          reached into my pocket again for my phone before sitting down with a contented
-          sigh.)
+          out the business card from earlier.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -9053,7 +9050,7 @@ MonoBehaviour:
       - originConversationID: 10004
         originDialogueID: 33
         destinationConversationID: 10004
-        destinationDialogueID: 34
+        destinationDialogueID: 39
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -9064,7 +9061,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 555
-        y: 119
+        y: 130.8421
         width: 160
         height: 30
     - id: 34
@@ -9118,8 +9115,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 556
-        y: 72
+        x: 553.36847
+        y: 56.21054
         width: 160
         height: 30
     - id: 35
@@ -9280,6 +9277,118 @@ MonoBehaviour:
         serializedVersion: 2
         x: 734
         y: 73
+        width: 160
+        height: 30
+    - id: 38
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: (Despite my lack of sight, I was unperturbed and made a beeline for
+          the fridge. After my success today, I deserved a treat.)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10004
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10004
+        originDialogueID: 38
+        destinationConversationID: 10004
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 24.684204
+        y: 175.26318
+        width: 160
+        height: 30
+    - id: 39
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 10004
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: (I set it down on the table, and then reached into my pocket again
+          for my phone before sitting down with a contented sigh.)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10004
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10004
+        originDialogueID: 39
+        destinationConversationID: 10004
+        destinationDialogueID: 34
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 552.3684
+        y: 90.05261
         width: 160
         height: 30
     entryGroups: []
