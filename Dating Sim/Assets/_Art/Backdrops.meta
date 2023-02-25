@@ -1,6 +1,10 @@
 fileFormatVersion: 2
-guid: b4d8b518f26189c438322b1aa517e41e
+<<<<<<<< HEAD:Dating Sim/Assets/_Scenes/IntroScene.unity.meta
+guid: 7c412812cf5226843b88a7d10a8048a2
+========
+guid: a833927a145996044b7bcb695a89d26f
 folderAsset: yes
+>>>>>>>> origin/background-art:Dating Sim/Assets/_Art/Backdrops.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

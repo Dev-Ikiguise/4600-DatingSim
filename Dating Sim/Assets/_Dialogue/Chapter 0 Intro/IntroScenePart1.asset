@@ -38,7 +38,7 @@ MonoBehaviour:
   - id: 1
     fields:
     - title: Name
-      value: You
+      value: Anon
       type: 0
       typeString: 
     - title: Pictures
@@ -126,28 +126,6 @@ MonoBehaviour:
   - id: 10004
     fields:
     - title: Name
-      value: You(Thoughts)
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Pictures
-      value: '[]'
-      type: 3
-      typeString: CustomFieldType_Files
-    - title: Description
-      value: The inner thoughts of the player.
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: IsPlayer
-      value: False
-      type: 2
-      typeString: CustomFieldType_Boolean
-    portrait: {fileID: 0}
-    spritePortrait: {fileID: 0}
-    alternatePortraits: []
-    spritePortraits: []
-  - id: 10005
-    fields:
-    - title: Name
       value: You
       type: 0
       typeString: CustomFieldType_Text
@@ -156,7 +134,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: 
+      value: The inner thoughts of the player.
       type: 0
       typeString: CustomFieldType_Text
     - title: IsPlayer
@@ -347,8 +325,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 246
-        y: 133
+        x: 247
+        y: 132
         width: 160
         height: 30
     - id: 2
@@ -529,9 +507,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "There comes a time, in every person\u2019s life, when a person must
+        value: "(There comes a time, in every person\u2019s life, when a person must
           decide their fate. Where their life is changed forever. Where they can
-          begin the stepping stone of their life."
+          begin the stepping stone of their life.)"
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -586,9 +564,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "You might wonder, \u2018What would be so important that it would
+        value: "(You might wonder, \u2018What would be so important that it would
           change their life?\u2019 There is only one thing that makes the world go
-          around. "
+          around. )"
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -643,7 +621,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 'Making Money! '
+        value: (Making Money!)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -727,7 +705,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 269.49252
-        y: 289.50745
+        y: 288.07886
         width: 160
         height: 30
     - id: 5
@@ -753,7 +731,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 'The Counselor laughed at his joke. '
+        value: (The Counselor laughed at his joke.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -808,7 +786,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "To me, it wasn\u2019t funny. "
+        value: "(It wasn\u2019t funny to me. )"
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -836,8 +814,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 271.40906
-        y: 402.2273
+        x: 274.39413
+        y: 393.2721
         width: 160
         height: 30
     - id: 7
@@ -851,7 +829,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 10005
+        value: 10004
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -892,8 +870,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 453
-        y: 394.50745
+        x: 454.36987
+        y: 398.61703
         width: 160
         height: 30
     - id: 8
@@ -919,8 +897,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: The counselor looked at me with a perturbed expression, wondering
-          if I was joking or not.
+        value: (The counselor looked at me with a perturbed expression, wondering
+          if I was joking or not.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -975,7 +953,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: He would never know.
+        value: (He would never know.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -1030,8 +1008,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 'Instead, he ignores my comment and begins to type on the computer
-          in front of him. '
+        value: (Instead, he ignores my comment and begins to type on the computer
+          in front of him.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -1114,8 +1092,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 447
-        y: 176
+        x: 449.9851
+        y: 177.49252
         width: 160
         height: 30
     - id: 12
@@ -1141,9 +1119,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 'The counselor leans forward in their chair, getting closer towards
+        value: (The counselor leans forward in their chair, getting closer towards
           their monitor. He squints and adjusts their glasses to read what is on
-          His screen. '
+          his screen.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -1200,9 +1178,7 @@ MonoBehaviour:
       - title: Dialogue Text
         value: "\u201CIt looks like there is an opening in Academic Advising for
           a receptionist. It entails scheduling meetings, informing students when
-          their advisor can see them, or if the advisor is busy. They\u2019d also
-          have to answer the phone and take messages for the advisors. If things
-          are running slow, however, you could do homework at the desk."
+          their advisor can see them, or if the advisor is busy. "
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -1220,7 +1196,7 @@ MonoBehaviour:
       - originConversationID: 10002
         originDialogueID: 13
         destinationConversationID: 10002
-        destinationDialogueID: 14
+        destinationDialogueID: 33
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1230,7 +1206,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 448
+        x: 449.49252
         y: 57
         width: 160
         height: 30
@@ -1257,7 +1233,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 'The Counselor turns from the computer and looks directly at me. '
+        value: (The Counselor turns from the computer and looks directly at me.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -1355,11 +1331,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 10005
+        value: 10004
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 10005
+        value: 10003
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1422,8 +1398,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 'The all-important question that everyone must ask. Seriously though,
-          I needed the money. '
+        value: (The all-important question that everyone must ask. Seriously though,
+          I needed the money.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -1478,8 +1454,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 'The counselor raised an eyebrow at me, giving me a smirk as he leaned
-          forward towards me. '
+        value: (The counselor raised an eyebrow at me, giving me a smirk as he leaned
+          forward towards me.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -1589,7 +1565,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 'I could tell he was serious, despite his joking tone. '
+        value: (I could tell he was serious, despite his joking tone.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -1617,7 +1593,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 630.9787
+        x: 633.96375
         y: 354.87234
         width: 160
         height: 30
@@ -1632,7 +1608,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 10005
+        value: 10004
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -1673,7 +1649,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 632.47125
-        y: 404.87234
+        y: 406.24222
         width: 160
         height: 30
     - id: 22
@@ -1699,9 +1675,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "The counselor gave me a caring smile as he leaned back into her chair
-          and looked back at the computer. He began typing away as if I wasn\u2019t
-          there."
+        value: "(The counselor gave me a caring smile as he leaned back into her
+          chair and looked back at the computer. He began typing away as if I wasn\u2019t
+          there.)"
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -1774,7 +1750,7 @@ MonoBehaviour:
       - originConversationID: 10002
         originDialogueID: 23
         destinationConversationID: 10002
-        destinationDialogueID: 24
+        destinationDialogueID: 25
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1788,61 +1764,6 @@ MonoBehaviour:
         y: 508.706
         width: 160
         height: 30
-    - id: 24
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 10004
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: "I\u2019m sorry...what? "
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 10002
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 10002
-        originDialogueID: 24
-        destinationConversationID: 10002
-        destinationDialogueID: 25
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 275.86993
-        y: 558.4511
-        width: 160
-        height: 30
     - id: 25
       fields:
       - title: Title
@@ -1854,7 +1775,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 10005
+        value: 10004
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -1894,8 +1815,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 459.45197
-        y: 457.70483
+        x: 456.71222
+        y: 460.44458
         width: 160
         height: 30
     - id: 26
@@ -1921,8 +1842,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 'The Counselor then stopped smiling, they seemed to get a little exasperated
-          that I hadn''t left yet. '
+        value: (The Counselor then stopped smiling, they seemed to get a little exasperated
+          that I hadn't left yet.)
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -1951,7 +1872,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 460.94446
-        y: 509.1974
+        y: 510.68988
         width: 160
         height: 30
     - id: 27
@@ -2021,7 +1942,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 10005
+        value: 10004
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -2172,7 +2093,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 649.0041
+        x: 650.4966
         y: 559.9437
         width: 160
         height: 30
@@ -2281,9 +2202,66 @@ MonoBehaviour:
         y: 659.9438
         width: 160
         height: 30
+    - id: 33
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 10003
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "They\u2019d also have to answer the phone and take messages for the
+          advisors. If things are running slow, however, you could do homework at
+          the desk."
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10002
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10002
+        originDialogueID: 33
+        destinationConversationID: 10002
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 531.58203
+        y: 11.4776535
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 20.46965, y: 9.577465}
-    canvasZoom: 0.7000003
+    canvasScrollPosition: {x: 89.182, y: 0}
+    canvasZoom: 0.6700003
   syncInfo:
     syncActors: 0
     syncItems: 0
