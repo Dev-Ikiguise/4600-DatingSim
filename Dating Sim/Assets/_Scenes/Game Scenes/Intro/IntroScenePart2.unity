@@ -1101,6 +1101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Office
       objectReference: {fileID: 0}
+    - target: {fileID: 5712215687582387941, guid: d408a8591a953924daaf9de22f86bea8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5712215687582387942, guid: d408a8591a953924daaf9de22f86bea8, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1275,7 +1279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2373607945348959714, guid: e88ead88d399c06479b0119f5492ff43, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e88ead88d399c06479b0119f5492ff43, type: 3}
