@@ -96,6 +96,20 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
+  - id: 2
+    fields:
+    - title: Name
+      value: inLove
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: false
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
   conversations:
   - id: 1
     fields:
@@ -309,7 +323,7 @@ MonoBehaviour:
         destinationDialogueID: 4
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["inLove"] == true
       userScript: Actor["Hat_Girl"].Name = "Sad_Girl"
       onExecute:
         m_PersistentCalls:
@@ -328,8 +342,8 @@ MonoBehaviour:
             m_CallState: 2
       canvasRect:
         serializedVersion: 2
-        x: 259.57816
-        y: 231.6745
+        x: 259.57825
+        y: 233.73642
         width: 160
         height: 30
     - id: 4
@@ -379,8 +393,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 259.49185
-        y: 287.58817
+        x: 286.29596
+        y: 337.07272
         width: 160
         height: 30
     - id: 5
@@ -611,7 +625,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.94000006
+    canvasZoom: 0.97
   - id: 2
     fields:
     - title: Title
