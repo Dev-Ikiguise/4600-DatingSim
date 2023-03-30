@@ -5,6 +5,8 @@ using UnityEngine;
 public class InventoryItemController : MonoBehaviour
 {
     Item item;
+    CharacterInfo character;
+    Player player;
 
     public void RemoveItem()
     {
@@ -16,5 +18,11 @@ public class InventoryItemController : MonoBehaviour
     public void AddItem(Item newItem)
     {
         item = newItem;
+    }
+
+    public void GiftItem(Item itemToGift, CharacterInfo characterToGiftTo)
+    {
+        RemoveItem();
+        Player.Instance.GainMoney();
     }
 }
