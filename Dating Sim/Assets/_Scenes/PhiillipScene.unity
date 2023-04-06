@@ -720,6 +720,7 @@ MonoBehaviour:
   characterWeight: +/- 115lbs
   collegeMajor: Computer Science
   relationshipLevel: 0
+  isTalking: 0
 --- !u!212 &1076411404
 SpriteRenderer:
   m_ObjectHideFlags: 0
