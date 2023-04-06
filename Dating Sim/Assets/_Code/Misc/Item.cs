@@ -9,14 +9,11 @@ public class Item : ScriptableObject
     public string itemName;
     public int value;
     public Sprite icon;
+    public ItemType itemType;
 
-    void Start()
+    public enum ItemType
     {
-        
-    }
-
-    void Update()
-    {
-        
+        Good,
+        Bad
     }
 }

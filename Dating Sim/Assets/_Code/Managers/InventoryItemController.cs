@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class InventoryItemController : MonoBehaviour
 {
-    Item item;
+    public Item item;
     CharacterInfo character;
     Player player;
 
@@ -23,6 +23,6 @@ public class InventoryItemController : MonoBehaviour
     public void GiftItem(Item itemToGift, CharacterInfo characterToGiftTo)
     {
         RemoveItem();
-        Player.Instance.GainMoney();
+        //Player.Instance.GainMoney();
     }
 }

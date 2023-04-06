@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8038814663706178302}
   - component: {fileID: 8038814663706178290}
-  - component: {fileID: 8038814663706178291}
   - component: {fileID: 8038814663706178300}
   - component: {fileID: 8038814663706178301}
+  - component: {fileID: 1006236928}
   m_Layer: 0
   m_Name: earbuds
   m_TagString: Untagged
@@ -27,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8038814663706178303}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -495.57, y: -223.42, z: 1.523057}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -87,19 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8038814663706178291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8038814663706178303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1321bb2ada087184784a725aa57b6fc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: dffe436eb5da9cb4a99b723379495c91, type: 2}
 --- !u!114 &8038814663706178300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,3 +126,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.1082497, y: 9.125538}
   m_EdgeRadius: 0
+--- !u!114 &1006236928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8038814663706178303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84f034e8a47b5e4d89ecd9e8f4021ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: dffe436eb5da9cb4a99b723379495c91, type: 2}
