@@ -18,6 +18,12 @@ public class PopUpVolume : MonoBehaviour
 
     public float timeout = 5.0f;
 
+    public void Start()
+    {
+        ToggleVolumePanel();
+        ToggleVolumePanel();
+    }
+
     void Update()
     {
         if (popUpSlider.popUpEnabled == true)

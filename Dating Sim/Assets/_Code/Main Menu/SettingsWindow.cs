@@ -1,4 +1,4 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +7,7 @@ public class SettingsWindow : MonoBehaviour
     public float leanAnimationOpenSeconds = 0.4f;
     public float leanAnimationCloseSeconds = 0.6f;
 
-    public bool isActive = false;
+    public bool isActive;
     [SerializeField] PopUpVolume popUpVolume;
     [SerializeField] AudioSettings audioSettings;
 
