@@ -188,7 +188,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Lounge Study Alone
+  conversation: The Bar
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -212,7 +212,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: bd0436c8a1acb084a80d982e185cbff3, type: 2}
+  selectedDatabase: {fileID: 11400000, guid: f8219fcd8c236fc49becb583e584ebcf, type: 2}
 --- !u!4 &155936273
 Transform:
   m_ObjectHideFlags: 0
@@ -1283,7 +1283,7 @@ PrefabInstance:
     - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: initialDatabase
       value: 
-      objectReference: {fileID: 11400000, guid: bd0436c8a1acb084a80d982e185cbff3, type: 2}
+      objectReference: {fileID: 11400000, guid: f8219fcd8c236fc49becb583e584ebcf, type: 2}
     - target: {fileID: 89239541, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
