@@ -13,6 +13,8 @@ public class CharacterInfo : MonoBehaviour
     public string collegeMajor;
     public float relationshipLevel = 0f;
 
+    public bool isTalking;
+
     void Start()
     {
         

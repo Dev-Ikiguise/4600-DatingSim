@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class RelationshipManager : MonoBehaviour
 {
+    public static RelationshipManager Instance;
     public CharacterInfo characterInfo;
 
     void Start()
     {
-
+        Instance = this;
     }
 
    

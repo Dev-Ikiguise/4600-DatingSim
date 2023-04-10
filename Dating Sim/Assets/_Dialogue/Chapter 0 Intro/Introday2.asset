@@ -1220,11 +1220,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "\u201CIt looks like there is an opening in Academic Advising for
-          a receptionist. It entails scheduling meetings, informing students when
-          their advisor can see them, or if the advisor is busy. They\u2019d also
-          have to answer the phone and take messages for the advisors. If things
-          are running slow, however, you could do homework at the desk."
+        value: It looks like there is an opening in Academic Advising for a receptionist.
+          It entails scheduling meetings, informing students when their advisor can
+          see them, or if the advisor is busy.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -1242,7 +1240,7 @@ MonoBehaviour:
       - originConversationID: 10002
         originDialogueID: 13
         destinationConversationID: 10002
-        destinationDialogueID: 14
+        destinationDialogueID: 33
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1308,7 +1306,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 630.9787
-        y: 54.872345
+        y: 57.72946
         width: 160
         height: 30
     - id: 15
@@ -2083,8 +2081,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 638.55634
-        y: 459.9438
+        x: 644.2706
+        y: 457.08667
         width: 160
         height: 30
     - id: 29
@@ -2301,6 +2299,63 @@ MonoBehaviour:
         serializedVersion: 2
         x: 437.06384
         y: 659.9438
+        width: 160
+        height: 30
+    - id: 33
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 10003
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "They\u2019d also have to answer the phone and take messages for the
+          advisors. If things are running slow, however, you could do homework at
+          the desk."
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 10002
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10002
+        originDialogueID: 33
+        destinationConversationID: 10002
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 448.00006
+        y: 16.71428
         width: 160
         height: 30
     entryGroups: []
@@ -3992,7 +4047,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 10004
@@ -4066,7 +4121,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 30
-        y: 70
+        y: 69
         width: 160
         height: 30
     - id: 2
@@ -4619,7 +4674,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasZoom: 0.6700003
   - id: 10005
     fields:
     - title: Title
@@ -4701,7 +4756,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 10005
