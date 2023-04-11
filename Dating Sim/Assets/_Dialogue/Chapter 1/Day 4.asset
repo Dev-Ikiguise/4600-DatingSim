@@ -179,7 +179,7 @@ MonoBehaviour:
     - title: Initial Value
       value: 
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Description
       value: 
       type: 0
@@ -2147,7 +2147,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 320.27863
-        y: 402.59027
+        y: 400.95093
         width: 160
         height: 30
     - id: 24
@@ -2173,7 +2173,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Yeah of course\r! Haven\u2019t you seen or heard about the Chupacabra?
+        value: "Of course!\nHaven\u2019t you seen or heard about the Chupacabra?
           The blood sucking goat killer. "
         type: 0
         typeString: 
@@ -2202,8 +2202,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 320.27863
-        y: 450.95093
+        x: 318.63928
+        y: 449.31158
         width: 160
         height: 30
     - id: 25
@@ -2285,7 +2285,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "It\u2019s only mythology because people don\u2019t want to prove
-          they existed.It\u2019s only mythology because people don\u2019t want to
+          they existed. It\u2019s only mythology because people don\u2019t want to
           prove they existed."
         type: 0
         typeString: 
@@ -2970,7 +2970,7 @@ MonoBehaviour:
         destinationConversationID: 10005
         destinationDialogueID: 39
         isConnector: 0
-        priority: 0
+        priority: 2
       - originConversationID: 10005
         originDialogueID: 38
         destinationConversationID: 10005
@@ -3039,8 +3039,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 771.098
-        y: 533.7382
+        x: 815.3603
+        y: 540.2956
         width: 160
         height: 30
     - id: 40
@@ -3095,8 +3095,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 357.86865
-        y: 519.18005
+        x: 364.42603
+        y: 551.9669
         width: 160
         height: 30
     entryGroups: []
