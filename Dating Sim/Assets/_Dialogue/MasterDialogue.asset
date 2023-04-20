@@ -35450,8 +35450,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Description
-        value: We can have this take place in the library, since we don't have a
-          book store scene.
+        value: We can have this take place in the Common Room, since we don't have
+          a book store scene.
         type: 0
         typeString: 
       - title: Actor
@@ -38852,8 +38852,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 2050.7153, y: 518.74036}
-    canvasZoom: 0.42999998
+    canvasScrollPosition: {x: 1250.4575, y: 814.18567}
+    canvasZoom: 0.7299997
   syncInfo:
     syncActors: 0
     syncItems: 0
