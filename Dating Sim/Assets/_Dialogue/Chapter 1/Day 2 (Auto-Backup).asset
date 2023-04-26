@@ -420,7 +420,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(ugh, so sleepy\u2026)"
+        value: "(Ugh, so sleepy\u2026)"
         type: 0
         typeString: 
       - title: Sequence
@@ -448,8 +448,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 31
-        y: 170
+        x: 34
+        y: 168
         width: 160
         height: 30
     - id: 4
@@ -838,7 +838,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasZoom: 0.73000026
   - id: 100003
     fields:
     - title: Title
@@ -1187,7 +1187,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '*the bell rings*'
+        value: '*Rings the bell*'
         type: 0
         typeString: 
       - title: Sequence
@@ -1215,7 +1215,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
+        x: 36.557373
         y: 270
         width: 160
         height: 30
@@ -2225,8 +2225,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u201C...I might\u2019ve been. Clark is a scary man when he tells
-          you to leave."
+        value: "...I might\u2019ve been. Clark is a scary man when he tells you to
+          leave."
         type: 0
         typeString: 
       - title: Sequence
@@ -2423,12 +2423,6 @@ MonoBehaviour:
       - originConversationID: 100004
         originDialogueID: 8
         destinationConversationID: 100004
-        destinationDialogueID: 11
-        isConnector: 0
-        priority: 2
-      - originConversationID: 100004
-        originDialogueID: 8
-        destinationConversationID: 100004
         destinationDialogueID: 12
         isConnector: 0
         priority: 2
@@ -2553,61 +2547,6 @@ MonoBehaviour:
         y: 190.78943
         width: 160
         height: 30
-    - id: 11
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 100003
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: "Do you know if she likes anything in particular?\u201D"
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 100004
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 100004
-        originDialogueID: 11
-        destinationConversationID: 100004
-        destinationDialogueID: 15
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 273.94727
-        y: 351.31567
-        width: 160
-        height: 30
     - id: 12
       fields:
       - title: Title
@@ -2631,7 +2570,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Thanks for your help.\u201D"
+        value: Thanks for your help.
         type: 0
         typeString: 
       - title: Sequence
@@ -2775,62 +2714,6 @@ MonoBehaviour:
         y: 193.42102
         width: 160
         height: 30
-    - id: 15
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 100003
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Not off the bat but If you figure something out about her, maybe I
-          can help you make a decision.
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 100004
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 100004
-        originDialogueID: 15
-        destinationConversationID: 100004
-        destinationDialogueID: 17
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 535.7893
-        y: 346.05252
-        width: 160
-        height: 30
     - id: 16
       fields:
       - title: Title
@@ -2910,7 +2793,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Anything else you want to know\?
+        value: Anything else you want to know?
         type: 0
         typeString: 
       - title: Sequence
@@ -2940,12 +2823,6 @@ MonoBehaviour:
       - originConversationID: 100004
         originDialogueID: 17
         destinationConversationID: 100004
-        destinationDialogueID: 11
-        isConnector: 0
-        priority: 2
-      - originConversationID: 100004
-        originDialogueID: 17
-        destinationConversationID: 100004
         destinationDialogueID: 12
         isConnector: 0
         priority: 2
@@ -2956,8 +2833,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 723.4209
-        y: 224.36317
+        x: 632.6314
+        y: 266.4684
         width: 160
         height: 30
     - id: 18
@@ -4664,7 +4541,173 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
+        value: Nah bad brah, did some reps. Gattah new fit!
+        type: 0
+        typeString: 
+      - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      conversationID: 100007
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 100007
+        originDialogueID: 8
+        destinationConversationID: 100007
+        destinationDialogueID: 9
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 42
+        y: 431
+        width: 160
+        height: 30
+    - id: 9
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 100006
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 100002
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Bruh, there\u2019s an amateur match this weekend. Ya free ma dude?"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 100007
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 100007
+        originDialogueID: 9
+        destinationConversationID: 100007
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 231
+        y: 36
+        width: 160
+        height: 30
+    - id: 10
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 100002
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 100006
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Possibly? I\u2019ll double-check my schedule and let you know. Anyway,
+          I got some homework I wanna get done. "
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 100007
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 100007
+        originDialogueID: 10
+        destinationConversationID: 100007
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 231
+        y: 86
+        width: 160
+        height: 30
+    - id: 11
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 100006
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 100002
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Gotcha! Have a good rest of the day mah dude!
         type: 0
         typeString: 
       - title: Sequence
@@ -4686,8 +4729,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 42
-        y: 431
+        x: 231
+        y: 136
         width: 160
         height: 30
     entryGroups: []
