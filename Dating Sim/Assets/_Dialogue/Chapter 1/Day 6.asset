@@ -4313,8 +4313,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 70.78779, y: 203.40462}
-    canvasZoom: 0.55000055
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.40000063
   - id: 100007
     fields:
     - title: Title
@@ -5136,8 +5136,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 4.310147, y: 13.851709}
-    canvasZoom: 0.97
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.8800001
   - id: 100008
     fields:
     - title: Title
@@ -7966,7 +7966,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 100006
+        value: 10004
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -8234,7 +8234,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 100006
+        value: 10004
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
